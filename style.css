@@ -1,0 +1,118 @@
+body {
+
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+     padding: 2;   
+     background-color: #f0f4f8;
+    }
+    h2 {
+    text-align: center;
+    color: rgb(44, 44, 233);
+    font-size: 30px;
+    text-decoration-line: underline;
+    padding: auto;
+    }
+    
+    form{
+    
+    margin: auto;
+    background-color: #f0f89c;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    padding: 20px;
+    max-width: 600px;
+    }
+    fieldset{
+    
+    border:2px solid #4d86db;
+    border-radius: 9px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    }
+    legend{
+    font-weight: bold;
+    text-align: left;
+    color: #0d1011;
+    
+    }
+    
+    label{
+    display: block;
+    margin-top: 10px;
+    color: #3f3c66;
+    
+    }
+    input,textarea{
+    
+        width: calc(100% - 1px);
+    padding: 6px;
+    margin-top: 4px;
+    border: 2px solid #3e74e9;
+    border-radius: 9px;
+    box-sizing: border-box;
+    }
+    button{
+    
+        display: block;
+        padding: 8px;
+        background-color: #3498bd;
+        border: none ;
+        color: #070b0c;
+        border-radius: 7px;
+        cursor: pointer;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0 auto;
+        width: 100%;
+    }
+    button:hover{
+        background-color: #12b6f1;
+    }
+    #resumeOutput{
+        
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border:2px solid #4ebce0;
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5)
+    }
+    #resumeOutput h2 {
+    color: #6177a1;
+    
+    
+    }
+    .profilePicture {
+    
+        display: block;
+        margin: 10px auto;
+        border:2px solid #688b97;
+        box-shadow: 0 5px 8px rgba(11,7,211,0.5);
+        border-radius:50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin-bottom: 15px;
+        }
+        
+        #buttonscontainer {
+            display: block;
+            margin-bottom: 10px 0;
+          }
+          
+          @media (max-width: 600px) {
+            #resumeOutput {
+                width: 100%;
+                padding: 10px;
+            }
+            .profilePicture {
+                width: 120px;
+                height: 120px;
+            }
+        }
+         
+            
+
+        
